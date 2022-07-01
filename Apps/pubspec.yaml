@@ -1,0 +1,85 @@
+name: phone_app_dp3
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  firebase_auth: ^3.3.19
+  firebase_core: ^1.17.1
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.0
+  connectivity_plus: ^1.4.0
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/img_icons8toilet1_1.png
+    - assets/images/Rectangle 22416.png
+    - assets/images/M_feedbacktitle.png
+    - assets/images/M_home.png
+    - assets/images/M_main_feedback.png
+    - assets/images/M_profile.png
+    - assets/images/M_wstat.png
+    - assets/images/datetime.png
+    - assets/images/expboxM.png
+    - assets/images/Mfb.png
+    - assets/images/Mmainwstat.png
+    - assets/images/MWstatTitle.png
+    - assets/images/MNameBox.png
+    - assets/images/MProfileMainTitle.png
+    - assets/images/MSignOut.png
+    - assets/images/MProfileMain.png
+    - assets/images/WRectangle.png
+    - assets/images/WSemicircle.png
+    - assets/images/WfbBox.png
+    - assets/images/Whomebutton.png
+    - assets/images/Winboxbutton.png
+    - assets/images/WmainFB.png
+    - assets/images/Wprofilebutton.png
+    - assets/images/WfbTitle.png
+    - assets/images/WinboxRectangle.png
+    - assets/images/WmainInbox.png
+    - assets/images/WInboxTitle.png
+    - assets/images/WfbButton.png
+    - assets/images/WProfileRectangle.png
+    - assets/images/WSignOut.png
+    - assets/images/WMainProfile.png
+    - assets/images/WProfileTitle.png
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/dmsansbold700.ttf
+          weight: 700
+        - asset: assets/fonts/dmsansregular400.ttf
+          weight: 400
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserratmontserratromansemibold600.ttf
+          weight: 600
+        - asset: assets/fonts/montserratmontserratromanbold700.ttf
+          weight: 700
+        - asset: assets/fonts/montserratmontserratromanmedium500.ttf
+          weight: 500
+    - family: Amiko
+      fonts:
+        - asset: assets/fonts/amikoregular400.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/intersemibold400.ttf
+          weight: 400
+        - asset: assets/fonts/interregular400.ttf
+          weight: 400
+        - asset: assets/fonts/intermedium500.ttf
+          weight: 500

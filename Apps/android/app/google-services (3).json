@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010153287191",
+    "project_id": "ifs-gh",
+    "storage_bucket": "ifs-gh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010153287191:android:58ccd171e8ecb5a3127652",
+        "android_client_info": {
+          "package_name": "com.example.phone_app_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010153287191-9nu21gsc0qbj0h8181jvs75ko8i5kgkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGxODJ4CpeWEUszvDIeI0bCXC7fojVAnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010153287191-9nu21gsc0qbj0h8181jvs75ko8i5kgkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
