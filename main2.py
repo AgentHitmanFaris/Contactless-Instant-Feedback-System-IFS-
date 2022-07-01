@@ -3,13 +3,7 @@
 #pipfrom termios import TAB1
 from tkinter import *
 from tkinter.ttk import *
-
-import pyautogui
-#import board
-#import digitalio
-from cgi import print_arguments
 from time import time
-import time
 import datetime
 
 import firebase_admin
