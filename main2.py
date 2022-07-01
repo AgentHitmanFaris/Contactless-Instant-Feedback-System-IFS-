@@ -3,28 +3,21 @@
 #pipfrom termios import TAB1
 from tkinter import *
 from tkinter.ttk import *
+
+import pyautogui
+from cgi import print_arguments
 from time import time
 import datetime
 
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
-#from adafruit_apds9960.apds9960 import APDS9960
 
 
-# i2c = board.I2C()
-# int_pin = digitalio.DigitalInOut(board.D5)
-# int_pin.switch_to_input(pull=digitalio.Pull.UP)
-# apds = APDS9960(i2c)
-
-# apds.enable_proximity = True
-# apds.enable_gesture = True
 
 
-#ir = digitalio.DigitalInOut(board.D17)
-#ir.direction = digitalio.Direction.INPUT
 
-#old_value = ir.value
+
 
 root = Tk()
 root.minsize(height=600, width=1024)
@@ -40,7 +33,6 @@ photo7 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICON
 photo8 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/final.png")
 photo9 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/next.png")
 photo10 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/transparent.png")
-#photo11 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/QR CODE.png")
 photo12 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/page 1.png")
 photo13 = PhotoImage(file=r"/home/pi/Downloads/ifs LATEST/ifs LATEST/ifs new/ICONS/page 2.png")
 
@@ -167,9 +159,6 @@ else:
     })
 i = 0
 while True:
-    #ir_value = ir.value
-    #time.sleep(0.2)
-    #if not ir_value:
     hopper_ref = users_ref.child('Database Realtime Update')
     hopper_ref.set({
         'IFS 1': 'Turn On',
@@ -185,7 +174,3 @@ while True:
     # page1()
     # root.after(4000,lambda:root.destroy())
     # old_value = ir_value
-
-    # else:
-    # root.after(3000,lambda:root.destroy())
-    # root.destroy()
