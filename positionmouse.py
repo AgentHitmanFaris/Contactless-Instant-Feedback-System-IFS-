@@ -2,9 +2,7 @@ import pyautogui
 import board
 import digitalio
 from adafruit_apds9960.apds9960 import APDS9960
-from cgi import print_arguments
 from time import time
-import time
 
 import firebase_admin
 from firebase_admin import credentials
