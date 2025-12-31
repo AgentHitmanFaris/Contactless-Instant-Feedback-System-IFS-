@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Secrets
+ifs-gh-firebase-adminsdk-s4bux-6090d01f7e.json
+
+# OS
+.DS_Store
+Thumbs.db
